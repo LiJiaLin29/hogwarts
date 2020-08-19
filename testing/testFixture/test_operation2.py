@@ -3,28 +3,15 @@
  @auther: 29263
  @date: 2020-08-18 20:29
 """
-import pytest
 
 from mathUtil.operations import *
-from testing.conftest import *
+from testing.testFixture.conftest import *
 
 
-class TestA:
+class TestB:
 
-    def setup(self):
-        print("开始计算")
-
-    def teardown(self):
-        print("\n计算结束")
-
-    def setup_class(self):
-        print("setup_class：所有用例执行之前")
-
-    def teardown_class(self):
-        print("teardown_class：所有用例结束后执行")
-
-    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_add'),
-                             ids=['整数', '小数', '小数整数', '字符串整数', '字符串小数'])
+    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_add')[0],
+                             ids=yaml_data_with_key('valid_add')[1])
     def test_add(self, x, y, expected):
         r = add(x, y)
         print(f"{x}+{y}=", r)
@@ -38,8 +25,8 @@ class TestA:
         err_msg = e.value.args[0]
         assert err_msg == "输入包含非数字，类型错误"
 
-    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_sub'),
-                             ids=['整数', '小数', '小数整数', '字符串整数', '字符串小数'])
+    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_sub')[0],
+                             ids=yaml_data_with_key('valid_sub')[1])
     def test_sub(self, x, y, expected):
         r = sub(x, y)
         print(f"{x}-{y}=", r)
@@ -53,8 +40,8 @@ class TestA:
         err_msg = e.value.args[0]
         assert err_msg == "输入包含非数字，类型错误"
 
-    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_mul'),
-                             ids=['整数', '小数', '小数整数', '字符串整数', '字符串小数'])
+    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_mul')[0],
+                             ids=yaml_data_with_key('valid_mul')[1])
     def test_mul(self, x, y, expected):
         r = mul(x, y)
         print(f"{x}*{y}=", r)
@@ -68,8 +55,8 @@ class TestA:
         err_msg = e.value.args[0]
         assert err_msg == "输入包含非数字，类型错误"
 
-    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_div'),
-                             ids=['整数', '小数', '小数整数', '字符串整数', '字符串小数'])
+    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_div')[0],
+                             ids=yaml_data_with_key('valid_div')[1])
     def test_div(self, x, y, expected):
         r = div(x, y)
         print(f"{x}/{y}=", r)
