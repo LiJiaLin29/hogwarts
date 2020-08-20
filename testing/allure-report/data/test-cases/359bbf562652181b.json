@@ -1,0 +1,122 @@
+{
+  "uid" : "359bbf562652181b",
+  "name" : "test_add[字符串整数]",
+  "fullName" : "testing.testFixture.test_operation2.TestB#test_add",
+  "historyId" : "fb2131a768400bce53e4919295f9ae7e",
+  "time" : {
+    "start" : 1597888465574,
+    "stop" : 1597888465574,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "attatch_info",
+    "time" : {
+      "start" : 1597888465324,
+      "stop" : 1597888465324,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9bfded10d5254b6",
+      "name" : "stdout",
+      "source" : "c9bfded10d5254b6.txt",
+      "type" : "text/plain",
+      "size" : 17
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "attatch_info::0",
+    "time" : {
+      "start" : 1597888465899,
+      "stop" : 1597888465899,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing.testFixture"
+  }, {
+    "name" : "suite",
+    "value" : "test_operation2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestB"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O258QM4M"
+  }, {
+    "name" : "thread",
+    "value" : "6996-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.testFixture.test_operation2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "5421"
+  }, {
+    "name" : "x",
+    "value" : "'534'"
+  }, {
+    "name" : "y",
+    "value" : "'4887'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6454b9154d4f6978",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597887874105,
+        "stop" : 1597887874106,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "359bbf562652181b.json",
+  "parameterValues" : [ "5421", "'534'", "'4887'" ]
+}

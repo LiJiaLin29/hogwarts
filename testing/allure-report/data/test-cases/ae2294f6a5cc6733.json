@@ -1,0 +1,112 @@
+{
+  "uid" : "ae2294f6a5cc6733",
+  "name" : "test_sub[字符串整数]",
+  "fullName" : "testing.testFixture.test_operation2.TestB#test_sub",
+  "historyId" : "c9bf66cfc3a7120b4bc039c2b43d2ffd",
+  "time" : {
+    "start" : 1597887874293,
+    "stop" : 1597887874294,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "attatch_info",
+    "time" : {
+      "start" : 1597887873792,
+      "stop" : 1597887873792,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "edb9912f1f3e8799",
+      "name" : "stdout",
+      "source" : "edb9912f1f3e8799.txt",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "attatch_info::0",
+    "time" : {
+      "start" : 1597887874410,
+      "stop" : 1597887874410,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing.testFixture"
+  }, {
+    "name" : "suite",
+    "value" : "test_operation2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestB"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O258QM4M"
+  }, {
+    "name" : "thread",
+    "value" : "6460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.testFixture.test_operation2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "29878"
+  }, {
+    "name" : "x",
+    "value" : "'34765'"
+  }, {
+    "name" : "y",
+    "value" : "'4887'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=5)" ]
+  },
+  "source" : "ae2294f6a5cc6733.json",
+  "parameterValues" : [ "29878", "'34765'", "'4887'" ]
+}

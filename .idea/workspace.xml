@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0467fa56-5c6b-4bcd-ab18-862b71c9daad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testing/datas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/testFixture/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/testFixture/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testing/datas/data.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/test_operation2.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/testFixture/test_operation2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/testFixture/test_operation2.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/testFixture/test_operation2.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +32,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing/test_operation1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+              <folding>
+                <element signature="e#136#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/testFixture/test_operation2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-880">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="1430">
+              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
               <folding>
                 <element signature="e#84#117#0" expanded="true" />
               </folding>
@@ -49,43 +57,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/testFixture/conftest.py">
+        <entry file="file://$PROJECT_DIR$/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="54">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
-                <element signature="e#66#79#0" expanded="true" />
+                <element signature="e#65#88#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="233">
-                <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/datas/data_fixture.yaml">
+        <entry file="file://$PROJECT_DIR$/testing/testFixture/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="113" column="11" lean-forward="true" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytest.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="196">
+              <caret line="13" column="76" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="76" />
+              <folding>
+                <element signature="e#65#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,19 +137,19 @@
         <option value="$PROJECT_DIR$/testing1/conftest.py" />
         <option value="$PROJECT_DIR$/mathUtil/operations.py" />
         <option value="$PROJECT_DIR$/testing1/data.yaml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/testing1/test_operation2.py" />
         <option value="$PROJECT_DIR$/testing1/test_operation1.py" />
         <option value="$PROJECT_DIR$/testing/test_operation1.py" />
         <option value="$PROJECT_DIR$/testing/test_operation2.py" />
         <option value="$PROJECT_DIR$/testing/data.yaml" />
         <option value="$PROJECT_DIR$/testing/datas/data.yaml" />
-        <option value="$PROJECT_DIR$/testing/conftest.py" />
         <option value="$PROJECT_DIR$/testing/datas/data_fixture" />
         <option value="$PROJECT_DIR$/testing/testFixture/conftest.py" />
         <option value="$PROJECT_DIR$/testing/datas/data_fixture.yaml" />
-        <option value="$PROJECT_DIR$/testing/testFixture/test_operation2.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/testing/testFixture/test_operation2.py" />
+        <option value="$PROJECT_DIR$/testing/conftest.py" />
       </list>
     </option>
   </component>
@@ -161,11 +160,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="344" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="197" />
+    <option name="y" value="243" />
     <option name="width" value="847" />
-    <option name="height" value="725" />
+    <option name="height" value="329" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -250,8 +249,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_operation2.TestB.test_div">
-    <configuration name="pytest for test_operation1.TestA.test_div_except1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_operation1.TestA.test_add">
+    <configuration name="pytest for test_operation1.TestA.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,11 +262,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_operation1.TestA.test_div_except1&quot;" />
+      <option name="_new_target" value="&quot;test_operation1.TestA.test_add&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_operation2.TestB.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_operation2.TestB" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,7 +278,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_operation2.TestB.test_add&quot;" />
+      <option name="_new_target" value="&quot;test_operation2.TestB&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -299,6 +298,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_operation2.TestB.test_div_except1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/testFixture" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_operation2.TestB.test_div_except1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_operation2.TestB.test_mul" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -312,22 +327,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_operation2.TestB.test_mul&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_operation2.TestB.test_sub" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="hogwarts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/testFixture" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_operation2.TestB.test_sub&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -348,19 +347,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_operation1.TestA.test_div_except1" />
-      <item itemvalue="Python tests.pytest for test_operation2.TestB.test_add" />
-      <item itemvalue="Python tests.pytest for test_operation2.TestB.test_sub" />
       <item itemvalue="Python tests.pytest for test_operation2.TestB.test_mul" />
       <item itemvalue="Python tests.pytest for test_operation2.TestB.test_div" />
+      <item itemvalue="Python tests.pytest for test_operation2.TestB.test_div_except1" />
+      <item itemvalue="Python tests.pytest for test_operation2.TestB" />
+      <item itemvalue="Python tests.pytest for test_operation1.TestA.test_add" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_operation1.TestA.test_add" />
+        <item itemvalue="Python tests.pytest for test_operation2.TestB" />
+        <item itemvalue="Python tests.pytest for test_operation2.TestB.test_div_except1" />
         <item itemvalue="Python tests.pytest for test_operation2.TestB.test_div" />
         <item itemvalue="Python tests.pytest for test_operation2.TestB.test_mul" />
-        <item itemvalue="Python tests.pytest for test_operation2.TestB.test_sub" />
-        <item itemvalue="Python tests.pytest for test_operation2.TestB.test_add" />
-        <item itemvalue="Python tests.pytest for test_operation1.TestA.test_div_except1" />
       </list>
     </recent_temporary>
   </component>
@@ -387,26 +386,11 @@
       <workItem from="1597732167523" duration="11221000" />
       <workItem from="1597747303125" duration="4849000" />
       <workItem from="1597768381656" duration="5354000" />
-      <workItem from="1597820535204" duration="6854000" />
+      <workItem from="1597820535204" duration="9222000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_operation2_TestB_test_add - 2020.08.19 at 16h 10m 30s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_add - 2020.08.19 at 16h 22m 42s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_add - 2020.08.19 at 16h 23m 29s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_add - 2020.08.19 at 16h 25m 12s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_add - 2020.08.19 at 16h 25m 37s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_add" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_operation2_TestB_test_add - 2020.08.19 at 16h 26m 43s.xml">
       <configuration name="pytest for test_operation2.TestB.test_add" configurationId="tests" />
     </history-entry>
@@ -422,21 +406,35 @@
     <history-entry file="pytest_for_test_operation2_TestB_test_div - 2020.08.19 at 16h 56m 02s.xml">
       <configuration name="pytest for test_operation2.TestB.test_div" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_operation2_TestB_test_div - 2020.08.19 at 16h 56m 52s.xml">
+      <configuration name="pytest for test_operation2.TestB.test_div" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_operation2_TestB_test_div_except1 - 2020.08.19 at 16h 57m 42s.xml">
+      <configuration name="pytest for test_operation2.TestB.test_div_except1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_operation2_TestB - 2020.08.19 at 17h 13m 50s.xml">
+      <configuration name="pytest for test_operation2.TestB" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_operation1_TestA_test_add - 2020.08.19 at 17h 31m 44s.xml">
+      <configuration name="pytest for test_operation1.TestA.test_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_operation1_TestA_test_add - 2020.08.19 at 17h 32m 15s.xml">
+      <configuration name="pytest for test_operation1.TestA.test_add" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63439000" />
+    <option name="totallyTimeSpent" value="65807000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="197" y="243" width="847" height="329" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3036849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29508197" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.35737705" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.44162437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2885246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,15 +442,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.9508197" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.84615386" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3065574" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="SciView" order="5" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,8 +461,9 @@
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestA_test_add.coverage" NAME="pytest for test_operation2.TestA.test_add Coverage Results" MODIFIED="1597772005295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_demo_TestCase.coverage" NAME="pytest for test_demo.TestCase Coverage Results" MODIFIED="1597736995597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
     <SUITE FILE_PATH="coverage/hogwarts$demo.coverage" NAME="demo Coverage Results" MODIFIED="1597032092771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB.coverage" NAME="pytest for test_operation2.TestB Coverage Results" MODIFIED="1597828428115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
     <SUITE FILE_PATH="coverage/python_ljl$adad.coverage" NAME="adad Coverage Results" MODIFIED="1596952284643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_add.coverage" NAME="pytest for test_operation1.TestA.test_add Coverage Results" MODIFIED="1597821586081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_add.coverage" NAME="pytest for test_operation1.TestA.test_add Coverage Results" MODIFIED="1597829533394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_add_except1.coverage" NAME="pytest for test_operation1.TestA.test_add_except1 Coverage Results" MODIFIED="1597821571026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_demo_TestCase_test_one.coverage" NAME="pytest for test_demo.TestCase.test_one Coverage Results" MODIFIED="1597735699273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_div.coverage" NAME="pytest for test_operation1.TestA.test_div Coverage Results" MODIFIED="1597821609890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
@@ -480,10 +479,11 @@
     <SUITE FILE_PATH="coverage/python_ljl$demo.coverage" NAME="demo Coverage Results" MODIFIED="1596968561190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hogwarts$computer.coverage" NAME="computer Coverage Results" MODIFIED="1597125148882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entity" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB_test_add.coverage" NAME="pytest for test_operation2.TestB.test_add Coverage Results" MODIFIED="1597826756134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
+    <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB_test_div_except1.coverage" NAME="pytest for test_operation2.TestB.test_div_except1 Coverage Results" MODIFIED="1597827460304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
     <SUITE FILE_PATH="coverage/hogwarts$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1597820837772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_in_test_demo_py.coverage" NAME="pytest in test_demo.py Coverage Results" MODIFIED="1597736033834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_div_except2.coverage" NAME="pytest for test_operation1.TestA.test_div_except2 Coverage Results" MODIFIED="1597821619706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
-    <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB_test_div.coverage" NAME="pytest for test_operation2.TestB.test_div Coverage Results" MODIFIED="1597827360765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
+    <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB_test_div.coverage" NAME="pytest for test_operation2.TestB.test_div Coverage Results" MODIFIED="1597827410645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB_test_mul.coverage" NAME="pytest for test_operation2.TestB.test_mul Coverage Results" MODIFIED="1597827341045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
     <SUITE FILE_PATH="coverage/hogwarts$car.coverage" NAME="car Coverage Results" MODIFIED="1597124301740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entity" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_mul_except1.coverage" NAME="pytest for test_operation1.TestA.test_mul_except1 Coverage Results" MODIFIED="1597743631493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
@@ -643,30 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/test_operation1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding>
-            <element signature="e#136#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/pathlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="527" column="34" selection-start-line="527" selection-start-column="34" selection-end-line="527" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#65#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,30 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="233">
-            <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/datas/data.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/testFixture/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="42" />
-          <folding>
-            <element signature="e#66#79#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,20 +678,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="282">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/testFixture/test_operation2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-880">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="1430">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
           <folding>
             <element signature="e#84#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/yaml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/testFixture/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="196">
+          <caret line="13" column="76" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="76" />
+          <folding>
+            <element signature="e#65#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#65#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_operation1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+          <folding>
+            <element signature="e#136#149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

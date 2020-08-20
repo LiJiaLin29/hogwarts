@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "2ce66463fc4ff5e677d5cf6c64a75b65",
+    "name" : "testing.testFixture",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 25,
+      "unknown" : 0,
+      "total" : 26
+    }
+  } ]
+}

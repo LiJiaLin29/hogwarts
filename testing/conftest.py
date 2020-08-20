@@ -5,8 +5,7 @@
 """
 from typing import List
 
-import pytest
-import yaml
+import yaml,os
 
 
 def pytest_collection_modifyitems(
@@ -19,7 +18,9 @@ def pytest_collection_modifyitems(
 
 # 加载测试数据文件（operation单元测试）
 def yaml_data_with_key(key):  # 读取yaml数据中的key值，这里的yaml文件名是data
-    with open('./datas/data.yaml', encoding='utf-8') as f:
+    # 获取测试数据的路径testing
+    cur_path = os.path.dirname(__file__).replace('\\', '/')
+    with open(cur_path+'/datas/data.yaml', encoding='utf-8') as f:
         data = yaml.safe_load(f)  # 用load方法转字典
     return data[key]
 

@@ -1,0 +1,116 @@
+{
+  "uid" : "54e97135d6f11b36",
+  "name" : "test_add[小数]",
+  "fullName" : "testing.testFixture.test_operation2.TestB#test_add",
+  "historyId" : "884d0042478ce32ad1edd54117f0960e",
+  "time" : {
+    "start" : 1597887873838,
+    "stop" : 1597887873840,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 34.066700000000004 == 34.0667\n  +34.066700000000004\n  -34.0667",
+  "statusTrace" : "self = <testing.testFixture.test_operation2.TestB object at 0x000001F1790F9EE0>\nx = 34.002, y = 0.0647, expected = 34.0667\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_add')[0],\n                             ids=yaml_data_with_key('valid_add')[1])\n    def test_add(self, x, y, expected):\n        r = add(x, y)\n        print(f\"{x}+{y}=\", r)\n>       assert r == expected\nE       assert 34.066700000000004 == 34.0667\nE         +34.066700000000004\nE         -34.0667\n\ntest_operation2.py:19: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "attatch_info",
+    "time" : {
+      "start" : 1597887873792,
+      "stop" : 1597887873792,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 34.066700000000004 == 34.0667\n  +34.066700000000004\n  -34.0667",
+    "statusTrace" : "self = <testing.testFixture.test_operation2.TestB object at 0x000001F1790F9EE0>\nx = 34.002, y = 0.0647, expected = 34.0667\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.parametrize('x, y, expected', yaml_data_with_key('valid_add')[0],\n                             ids=yaml_data_with_key('valid_add')[1])\n    def test_add(self, x, y, expected):\n        r = add(x, y)\n        print(f\"{x}+{y}=\", r)\n>       assert r == expected\nE       assert 34.066700000000004 == 34.0667\nE         +34.066700000000004\nE         -34.0667\n\ntest_operation2.py:19: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e3de2f3ed7b4201",
+      "name" : "stdout",
+      "source" : "2e3de2f3ed7b4201.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "attatch_info::0",
+    "time" : {
+      "start" : 1597887874410,
+      "stop" : 1597887874410,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing.testFixture"
+  }, {
+    "name" : "suite",
+    "value" : "test_operation2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestB"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-O258QM4M"
+  }, {
+    "name" : "thread",
+    "value" : "6460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.testFixture.test_operation2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "34.0667"
+  }, {
+    "name" : "x",
+    "value" : "34.002"
+  }, {
+    "name" : "y",
+    "value" : "0.0647"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "54e97135d6f11b36.json",
+  "parameterValues" : [ "34.0667", "34.002", "0.0647" ]
+}
