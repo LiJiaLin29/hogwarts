@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0467fa56-5c6b-4bcd-ab18-862b71c9daad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test_selenium/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_selenium/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_selenium/data/cookies-weixin.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_selenium/data/cookies-weixin.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_selenium/data/cookies-weixin.dir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_selenium/data/学习.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_selenium/test_com_weixin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/testFixture/test_operation2.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/testFixture/test_operation2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathUtil/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathUtil/operations.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +39,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testing/test_operation1.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_selenium/test_com_weixin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+            <state relative-caret-position="-211">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
               <folding>
-                <element signature="e#136#149#0" expanded="true" />
+                <element signature="e#116#122#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="336">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="202" column="30" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_selenium/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="e#84#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <element signature="e#787#802#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Programtool/Python/Python38/Lib/shelve.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6480">
+              <caret line="243" selection-start-line="243" selection-end-line="243" />
             </state>
           </provider>
         </entry>
@@ -47,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/testFixture/test_operation2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
+            <state relative-caret-position="1566">
               <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
               <folding>
                 <element signature="e#84#117#0" expanded="true" />
@@ -68,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="594">
               <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="e#65#88#0" expanded="true" />
@@ -80,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/testFixture/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="351">
               <caret line="13" column="76" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="76" />
               <folding>
                 <element signature="e#65#78#0" expanded="true" />
@@ -135,7 +196,6 @@
         <option value="$PROJECT_DIR$/entity/resp_code.py" />
         <option value="$PROJECT_DIR$/entity/operation_enum.py" />
         <option value="$PROJECT_DIR$/testing1/conftest.py" />
-        <option value="$PROJECT_DIR$/mathUtil/operations.py" />
         <option value="$PROJECT_DIR$/testing1/data.yaml" />
         <option value="$PROJECT_DIR$/testing1/test_operation2.py" />
         <option value="$PROJECT_DIR$/testing1/test_operation1.py" />
@@ -147,9 +207,13 @@
         <option value="$PROJECT_DIR$/testing/testFixture/conftest.py" />
         <option value="$PROJECT_DIR$/testing/datas/data_fixture.yaml" />
         <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/testing/testFixture/test_operation2.py" />
         <option value="$PROJECT_DIR$/testing/conftest.py" />
+        <option value="$PROJECT_DIR$/mathUtil/operations.py" />
+        <option value="$PROJECT_DIR$/test_selenium/test_work_weixin.py" />
+        <option value="$PROJECT_DIR$/test_selenium/test_com_weixin.py" />
+        <option value="$PROJECT_DIR$/test_selenium/conftest.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -160,17 +224,34 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="197" />
-    <option name="y" value="243" />
-    <option name="width" value="847" />
-    <option name="height" value="329" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="360" />
+    <option name="y" value="20" />
+    <option name="width" value="697" />
+    <option name="height" value="394" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="hogwarts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hogwarts" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="hogwarts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="hogwarts" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test_selenium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,42 +263,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="hogwarts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hogwarts" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="hogwarts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hogwarts" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="testing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hogwarts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hogwarts" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="testing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="datas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="hogwarts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="hogwarts" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="testing" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="testFixture" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testing/testFixture" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_selenium/data" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -227,14 +279,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workplace\IdeaProjects\hogwarts\testing\testFixture" />
-      <recent name="D:\Workplace\IdeaProjects\hogwarts\testFixture" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Workplace\IdeaProjects\hogwarts\testing\datas" />
       <recent name="D:\Workplace\IdeaProjects\hogwarts\testing\testFixture" />
       <recent name="D:\Workplace\IdeaProjects\hogwarts\testing" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workplace\IdeaProjects\hogwarts\test_selenium\data" />
+      <recent name="D:\Workplace\IdeaProjects\hogwarts\testing\testFixture" />
+      <recent name="D:\Workplace\IdeaProjects\hogwarts\testFixture" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,7 +302,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_operation1.TestA.test_add">
+  <component name="RunManager" selected="Python tests.pytest for test_com_weixin.TestWeiXin.test_import_contacts">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hogwarts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_selenium/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hogwarts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_com_weixin.TestWeiXin.test_import_contacts&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_operation1.TestA.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,22 +373,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_operation2.TestB.test_div" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="hogwarts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/testFixture" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_operation2.TestB.test_div&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_operation2.TestB.test_div_except1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hogwarts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,52 +389,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_operation2.TestB.test_mul" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="hogwarts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing/testFixture" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_operation2.TestB.test_mul&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for testing.test_operation1.TestA" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="hogwarts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testing.test_operation1.TestA&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_operation2.TestB.test_mul" />
-      <item itemvalue="Python tests.pytest for test_operation2.TestB.test_div" />
       <item itemvalue="Python tests.pytest for test_operation2.TestB.test_div_except1" />
       <item itemvalue="Python tests.pytest for test_operation2.TestB" />
       <item itemvalue="Python tests.pytest for test_operation1.TestA.test_add" />
+      <item itemvalue="Python.conftest" />
+      <item itemvalue="Python tests.pytest for test_com_weixin.TestWeiXin.test_import_contacts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_com_weixin.TestWeiXin.test_import_contacts" />
+        <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.pytest for test_operation1.TestA.test_add" />
         <item itemvalue="Python tests.pytest for test_operation2.TestB" />
         <item itemvalue="Python tests.pytest for test_operation2.TestB.test_div_except1" />
-        <item itemvalue="Python tests.pytest for test_operation2.TestB.test_div" />
-        <item itemvalue="Python tests.pytest for test_operation2.TestB.test_mul" />
       </list>
     </recent_temporary>
   </component>
@@ -387,54 +430,57 @@
       <workItem from="1597747303125" duration="4849000" />
       <workItem from="1597768381656" duration="5354000" />
       <workItem from="1597820535204" duration="9222000" />
+      <workItem from="1598077839278" duration="3378000" />
+      <workItem from="1598081227598" duration="7751000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_operation2_TestB_test_add - 2020.08.19 at 16h 26m 43s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_add" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 16h 51m 28s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_add - 2020.08.19 at 16h 45m 57s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_add" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 00m 11s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_sub - 2020.08.19 at 16h 55m 22s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_sub" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 02m 24s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_mul - 2020.08.19 at 16h 55m 42s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_mul" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 05m 39s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_div - 2020.08.19 at 16h 56m 02s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_div" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 07m 42s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_div - 2020.08.19 at 16h 56m 52s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_div" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 10m 35s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB_test_div_except1 - 2020.08.19 at 16h 57m 42s.xml">
-      <configuration name="pytest for test_operation2.TestB.test_div_except1" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 11m 50s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation2_TestB - 2020.08.19 at 17h 13m 50s.xml">
-      <configuration name="pytest for test_operation2.TestB" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 18m 06s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation1_TestA_test_add - 2020.08.19 at 17h 31m 44s.xml">
-      <configuration name="pytest for test_operation1.TestA.test_add" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 21m 19s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_operation1_TestA_test_add - 2020.08.19 at 17h 32m 15s.xml">
-      <configuration name="pytest for test_operation1.TestA.test_add" configurationId="tests" />
+    <history-entry file="pytest_for_test_com_weixin_TestWeiXin_test_import_contacts - 2020.08.22 at 17h 23m 34s.xml">
+      <configuration name="pytest for test_com_weixin.TestWeiXin.test_import_contacts" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65807000" />
+    <option name="totallyTimeSpent" value="76936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="197" y="243" width="847" height="329" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3036849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.29508197" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.44162437" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.40983605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2885246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -442,7 +488,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.84615386" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26885247" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3065574" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -473,6 +519,7 @@
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_mul.coverage" NAME="pytest for test_operation1.TestA.test_mul Coverage Results" MODIFIED="1597753336382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_one.coverage" NAME="pytest for test_operation1.TestA.test_one Coverage Results" MODIFIED="1597736864567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
     <SUITE FILE_PATH="coverage/hogwarts$fight_game.coverage" NAME="fight_game Coverage Results" MODIFIED="1597118262291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_com_weixin_TestWeiXin_test_import_contacts.coverage" NAME="pytest for test_com_weixin.TestWeiXin.test_import_contacts Coverage Results" MODIFIED="1598088198494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium" />
     <SUITE FILE_PATH="coverage/hogwarts$thing_of_life.coverage" NAME="thing_of_life Coverage Results" MODIFIED="1597122256583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entity" />
     <SUITE FILE_PATH="coverage/hogwarts$operations.coverage" NAME="operations Coverage Results" MODIFIED="1597648864121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mathUtil" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_sub.coverage" NAME="pytest for test_operation1.TestA.test_sub Coverage Results" MODIFIED="1597752544159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
@@ -480,7 +527,7 @@
     <SUITE FILE_PATH="coverage/hogwarts$computer.coverage" NAME="computer Coverage Results" MODIFIED="1597125148882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/entity" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB_test_add.coverage" NAME="pytest for test_operation2.TestB.test_add Coverage Results" MODIFIED="1597826756134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB_test_div_except1.coverage" NAME="pytest for test_operation2.TestB.test_div_except1 Coverage Results" MODIFIED="1597827460304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
-    <SUITE FILE_PATH="coverage/hogwarts$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1597820837772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
+    <SUITE FILE_PATH="coverage/hogwarts$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1598087368818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_selenium" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_in_test_demo_py.coverage" NAME="pytest in test_demo.py Coverage Results" MODIFIED="1597736033834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation1_TestA_test_div_except2.coverage" NAME="pytest for test_operation1.TestA.test_div_except2 Coverage Results" MODIFIED="1597821619706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_operation2_TestB_test_div.coverage" NAME="pytest for test_operation2.TestB.test_div Coverage Results" MODIFIED="1597827410645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing/testFixture" />
@@ -492,7 +539,6 @@
     <SUITE FILE_PATH="coverage/hogwarts$pytest_for_test_demo_TestCase_test_three.coverage" NAME="pytest for test_demo.TestCase.test_three Coverage Results" MODIFIED="1597736220367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/demo.py" />
     <entry file="file://$PROJECT_DIR$/b.py" />
     <entry file="file://$PROJECT_DIR$/c.py" />
     <entry file="file://$PROJECT_DIR$/a.py" />
@@ -614,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mathUtil/operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/test_operation2.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/assertion/rewrite.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/datas/data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/pathlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -650,13 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/datas/data_fixture">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="92" column="8" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="92" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/datas/data_fixture" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/mark/structures.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -678,26 +704,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/yaml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathUtil/operations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="236">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="282">
-            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/testing/datas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_operation1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#136#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#788#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programtool/Python/Python38/Lib/shelve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6480">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/testFixture/test_operation2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
+        <state relative-caret-position="1566">
           <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
           <folding>
             <element signature="e#84#117#0" expanded="true" />
@@ -705,22 +754,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/yaml/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/testFixture/conftest.py">
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="13" column="76" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="76" />
-          <folding>
-            <element signature="e#65#78#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="594">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="e#65#88#0" expanded="true" />
@@ -728,13 +771,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/test_operation1.py">
+    <entry file="file://$PROJECT_DIR$/testing/testFixture/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="351">
+          <caret line="13" column="76" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="76" />
           <folding>
-            <element signature="e#136#149#0" expanded="true" />
+            <element signature="e#65#78#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#787#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_selenium/data/cookies-weixin.dir">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_selenium/data/cookies-weixin.bak">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4725">
+          <caret line="879" column="8" selection-start-line="879" selection-start-column="8" selection-end-line="879" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="202" column="30" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_selenium/test_com_weixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="e#116#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_selenium/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="336">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

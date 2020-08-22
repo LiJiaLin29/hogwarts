@@ -49,4 +49,4 @@ def div(x, y):  # 保留6位小数
         raise ZeroDivisionError("发生除数为零错误")
     x = float(x)
     y = float(y)
-    return round(x / y,6)
+    return round(x / y, 6)
