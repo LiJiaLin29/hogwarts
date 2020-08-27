@@ -39,7 +39,7 @@ class TestWeiXin:
         # 调用login_winxin完成登录
         login_winxin(self.driver)
         self.driver.get("https://work.weixin.qq.com/wework_admin/frame#index")
-        time.sleep(3)
+        time.sleep(5)
         # 获取导入通讯录UI元素
         self.driver.find_element(By.CSS_SELECTOR, ".index_service_cnt_itemWrap:nth-child(2)").click()
         # 页面切换判断
