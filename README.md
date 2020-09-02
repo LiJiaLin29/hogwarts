@@ -17,4 +17,7 @@
 ./PO # page对象
 ./test_selenium/test_dept_weixin.py
 
+# appium实战第(一)次作业
+./test_appium
+
 python学习代码
