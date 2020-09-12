@@ -1,0 +1,6 @@
+#企业微信通讯录-邀请好友页测试步骤数据
+
+click_add_manual:
+  - by:
+      id: com.tencent.wework:id/hs_  # 滚动查找
+  - click: []

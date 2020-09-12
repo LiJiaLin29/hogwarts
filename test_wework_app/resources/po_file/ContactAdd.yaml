@@ -1,0 +1,32 @@
+#企业微信填写成员信息页测试步骤数据
+
+input_member:
+  - by:
+      parent: 姓名  # 兄弟元素定位
+      id: com.tencent.wework:id/azh
+  - send: ${name}  # 输入姓名 send参数名name...和po对象形参中一致
+  - by:
+      parent: 性别  # 兄弟元素定位
+      id: com.tencent.wework:id/e__
+  - click: []
+  - by:
+      text: ${sex} # 选择性别，根据python传入的值进行替换
+  - click: []
+  - by:
+      parent: 手机  # 兄弟元素定位
+      class: android.widget.EditText
+  - send: ${mobile}  # 输入手机号 send参数名mobile...和po对象形参中一致
+click_save:  # 保存成员信息
+  - by:
+      id: com.tencent.wework:id/hk6
+      text: 保存
+  - click: []
+click_delete:  # 删除成员信息
+  - by:
+      scroll: 删除成员
+      text: 保存
+  - click: []
+  - by:
+      id: com.tencent.wework:id/bfe
+      text: 确定
+  - click: []

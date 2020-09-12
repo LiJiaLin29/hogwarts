@@ -20,4 +20,7 @@
 # appium实战第(一)次作业
 ./test_appium
 
+# appium实战第(二)次作业
+./test_wework_app
+
 python学习代码

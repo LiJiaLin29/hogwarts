@@ -1,0 +1,17 @@
+#企业微信通讯录页测试步骤数据
+
+click_add_member:
+  - by:
+      scroll: 添加成员  # 滚动查找
+  - click: []
+click_member:
+  - by:
+      scroll: ${name}  # 滚动查找用户
+  - click: []
+search: # 点击搜索并输入
+  - by:
+      id: com.tencent.wework:id/hk9
+  - click: []
+  - by:
+      class: android.widget.EditText
+  - send: ${name}

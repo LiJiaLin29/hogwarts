@@ -1,0 +1,6 @@
+#企业微信主页测试步骤数据
+goto_contacts:
+ - by:
+    id: com.tencent.wework:id/e5c
+    text: 通讯录
+ - click: []

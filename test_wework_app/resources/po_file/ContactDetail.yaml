@@ -1,0 +1,5 @@
+#企业微信通讯录-个人信息页测试步骤数据
+click_menu:
+  - by:
+      id: com.tencent.wework:id/hjz
+  - click: []  # 点击联系人

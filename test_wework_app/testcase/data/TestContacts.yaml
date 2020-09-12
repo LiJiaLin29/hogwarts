@@ -1,0 +1,10 @@
+add_contact_list:
+  - name: 娜娜01
+    sex: 女
+    mobile: 13364560000
+  - name: 娜娜02
+    sex: 男
+    mobile: 13364560001
+delete_by_name:  # 删除用户名
+  - name: 娜娜01
+  - name: 娜娜02

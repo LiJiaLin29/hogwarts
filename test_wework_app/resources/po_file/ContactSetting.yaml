@@ -1,0 +1,9 @@
+#企业微信通讯录-个人信息-信息设置页测试步骤数据
+click_edit_member:
+  - by:
+      id: com.tencent.wework:id/b53
+      text: 编辑成员
+  - click: []  # 点击编辑成员
+
+
+
